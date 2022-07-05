@@ -1,4 +1,4 @@
-package Guess;
+package guess;
 import java.util.Scanner;
 
 public class GuessNumber {
@@ -21,7 +21,6 @@ public class GuessNumber {
             System.out.println("Угадайте число");
 
             guess = sc.nextInt();
-            //sc.close();
 
             if (number == guess) {
                 System.out.println("Поздравляем! " + "Вы угадали число");
@@ -46,15 +45,3 @@ public class GuessNumber {
         guessingNumberGame();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
